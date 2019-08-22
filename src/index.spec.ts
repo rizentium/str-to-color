@@ -1,4 +1,4 @@
-import StrToColor from './index'
+import * as StrToColor from './color/color';
 
 describe("string to hex", () => {
   it("string: The quick", () => {
