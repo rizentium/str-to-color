@@ -1,13 +1,12 @@
 {
   "name": "str-to-color",
-  "version": "0.0.6",
+  "version": "0.0.10",
   "description": "Convert string to color",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
     "test": "jest",
-    "build": "tsc",
-    "example":"tsc example/index.ts && node example/index.js"
+    "build": "tsc"
   },
   "jest": {
     "transform": {
