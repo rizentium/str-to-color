@@ -1,6 +1,6 @@
-export function padEnd(str:string, paddingCharacter:string, long:number) {
+export function padEnd(str:string, long:number) {
   for (let x = 0;x < long-str.length;x++) {
-    str += paddingCharacter
+    str += str.charAt(x)
   }
   return str
 }

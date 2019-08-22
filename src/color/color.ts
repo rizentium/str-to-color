@@ -6,7 +6,7 @@ import {padEnd} from "../modules/padding";
  * @param str
  */
 export function rgb(str:string) {
-  return `#${padEnd(hashColor(str),'f',6)}`;
+  return `#${padEnd(hashColor(str),6)}`;
 }
 /**
  * Get font color based on background
