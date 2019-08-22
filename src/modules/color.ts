@@ -1,5 +1,5 @@
 
-export default function rgb(str:string) {
+export function rgb(str:string) {
   let length = 0;
   str.split('').forEach(d => {
     length += d.charCodeAt(0);
@@ -13,4 +13,8 @@ export default function rgb(str:string) {
   }
 
   return '#'+hex;
+}
+
+export function test() {
+
 }

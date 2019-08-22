@@ -1,3 +1,3 @@
-import rgb from './modules/color'
+import * as StrToColor from './modules/color'
 
-export default {rgb};
+export {StrToColor};
