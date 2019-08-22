@@ -1,6 +1,6 @@
 {
   "name": "str-to-color",
-  "version": "0.0.4",
+  "version": "0.0.6",
   "description": "Convert string to color",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
