@@ -1,3 +1,3 @@
-import * as StrToColor from './modules/color'
+import * as StrToColor from './color/color';
 
-export {StrToColor};
+export default StrToColor;
